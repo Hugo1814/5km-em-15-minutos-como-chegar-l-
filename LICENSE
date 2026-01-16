@@ -1,70 +1,255 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Curso Completo – 5km em 15 Minutos</title>
-  <style>
+<meta charset="UTF-8">
+<title>Curso Profissional – Como Correr 5 km em 15 Minutos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
     body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      line-height: 1.6;
+        margin: 0;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background-color: #f2f2f2;
+        color: #333;
     }
+
     header {
-      background: linear-gradient(135deg, #020617, #111827);
-      padding: 60px 20px;
-      text-align: center;
+        background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+        url("https://images.unsplash.com/photo-1546483875-ad9014c88eba");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 120px 20px;
     }
+
     header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
+        font-size: 3em;
+        margin-bottom: 10px;
     }
+
     header p {
-      max-width: 700px;
-      margin: auto;
-      color: #cbd5f5;
+        font-size: 1.3em;
+        max-width: 700px;
+        margin: auto;
     }
+
     section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
+        max-width: 1100px;
+        margin: auto;
+        background: white;
+        padding: 50px;
+        margin-top: 40px;
+        border-radius: 8px;
     }
-    section h2 {
-      color: #38bdf8;
-      margin-bottom: 20px;
+
+    h2 {
+        border-left: 6px solid #111;
+        padding-left: 12px;
+        margin-bottom: 20px;
     }
-    .card {
-      background: #020617;
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 30px;
-      box-shadow: 0 10px 30px rgba(0,0,0,.4);
-    }
+
     .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+        margin-top: 30px;
     }
-    img {
-      width: 100%;
-      border-radius: 12px;
-      margin-bottom: 15px;
+
+    .card {
+        background: #fafafa;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card div {
+        padding: 20px;
+    }
+
+    .alerta {
+        background: #ffe6e6;
+        border-left: 6px solid #cc0000;
+        padding: 20px;
+        margin: 30px 0;
+    }
+
+    .correto {
+        background: #e6ffe6;
+        border-left: 6px solid #009933;
+        padding: 20px;
+        margin: 30px 0;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
     footer {
-      background: #020617;
-      padding: 30px;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #94a3b8;
+        background: #111;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+        margin-top: 60px;
     }
-  </style>
+</style>
 </head>
-<body><header>
-  <h1>Curso Completo – 5km em 15 Minutos</h1>
-  <p>Treinamento avançado para corredores que buscam alta performance, evolução real e redução extrema de tempo nos 5km.</p>
-</header><section>
-  <h2>Sobre o Desafio</h2>
-  <div class="card">
-    <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5" alt="Corrida de rua">
-    <p>Correr 5km em 15 minutos exige ritmo médio de 3:00 min/km, alto VO₂ máximo, força muscular e excelente técnica. Este curso ensina como chegar o mais próximo possível dessa marca com método e segurança.</p
+
+<body>
+
+<header>
+    <h1>Como Correr 5 km em 15 Minutos</h1>
+    <p>Um curso completo, profissional e baseado em ciência do treinamento esportivo</p>
+</header>
+
+<section>
+    <h2>Introdução ao Desafio</h2>
+    <p>
+        Completar 5 km em 15 minutos exige um ritmo médio de <strong>3:00 por quilômetro</strong>.
+        Esse desempenho está no nível de atletas de elite e requer um processo estruturado,
+        consistente e inteligente.
+    </p>
+
+    <div class="alerta">
+        ⚠️ Este curso é educativo. Consulte um médico e um profissional de educação física antes
+        de iniciar treinos intensos.
+    </div>
+</section>
+
+<section>
+    <h2>Como Funciona o Treinamento Correto</h2>
+
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5">
+            <div>
+                <h3>Progressão</h3>
+                <p>
+                    Aumentar carga, volume e intensidade de forma gradual para evitar lesões
+                    e permitir adaptação fisiológica.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e">
+            <div>
+                <h3>Variedade de Estímulos</h3>
+                <p>
+                    Treinos diferentes desenvolvem capacidades diferentes: resistência,
+                    velocidade, força e eficiência.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517964603305-11c0f6f66012">
+            <div>
+                <h3>Recuperação</h3>
+                <p>
+                    O corpo evolui durante o descanso. Treinar sem recuperar é treinar errado.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Como a Maioria das Pessoas Treina Errado</h2>
+
+    <div class="alerta">
+        <ul>
+            <li>Correr sempre forte</li>
+            <li>Ignorar treinos leves</li>
+            <li>Não fazer musculação</li>
+            <li>Treinar sem planejamento</li>
+            <li>Copiar treinos de atletas profissionais</li>
+        </ul>
+    </div>
+
+    <p>
+        Esses erros causam estagnação, fadiga crônica e lesões frequentes.
+        Mais esforço não significa mais resultado.
+    </p>
+</section>
+
+<section>
+    <h2>Estrutura do Treinamento para 5 km</h2>
+
+    <div class="grid">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1540539234-c14a20fb7c7b">
+            <div>
+                <h3>Corrida Leve</h3>
+                <p>Constrói base aeróbica e acelera a recuperação.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1526401485004-2aa7f3b0f43f">
+            <div>
+                <h3>Treino Intervalado</h3>
+                <p>Desenvolve velocidade e capacidade máxima de oxigênio.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1502904550040-7534597429ae">
+            <div>
+                <h3>Treino de Ritmo</h3>
+                <p>Ensina o corpo a sustentar ritmos altos por mais tempo.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Força, Técnica e Prevenção</h2>
+
+    <div class="correto">
+        <p>
+            Nenhum atleta corre rápido apenas correndo.
+            Treino de força, mobilidade e técnica são obrigatórios
+            para suportar ritmos extremos como 3:00/km.
+        </p>
+    </div>
+
+    <ul>
+        <li>Musculação 2–3x por semana</li>
+        <li>Core forte e estável</li>
+        <li>Educativos de corrida</li>
+        <li>Mobilidade articular</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Exemplo de Semana Avançada</h2>
+    <ul>
+        <li><strong>Segunda:</strong> Corrida leve + força</li>
+        <li><strong>Terça:</strong> Intervalado (pista)</li>
+        <li><strong>Quarta:</strong> Corrida leve</li>
+        <li><strong>Quinta:</strong> Ritmo forte contínuo</li>
+        <li><strong>Sexta:</strong> Descanso ativo</li>
+        <li><strong>Sábado:</strong> Corrida longa</li>
+        <li><strong>Domingo:</strong> Descanso total</li>
+    </ul>
+</section>
+
+<footer>
+    <h2>Obrigado por acompanhar este curso</h2>
+    <p>
+        Evoluir na corrida é respeitar o processo, o corpo e a ciência do treinamento.
+    </p>
+    <p>
+        Bons treinos e boas corridas 🏃‍♂️
+    </p>
+</footer>
+
+</body>
+</html>
